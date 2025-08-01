@@ -1,0 +1,67 @@
+/* Estilo básico para a página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container que organiza os elementos */
+.container {
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Estilo do título */
+h1 {
+    color: #333;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo do parágrafo de mensagem */
+#message {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo para o código exibido */
+pre {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+    max-height: 250px;
+    overflow-y: auto;
+    font-family: 'Courier New', monospace;
+}
+
+code {
+    display: block;
+}
+
+    
